@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Fez Translate</string>
+    <string name="text_alphabet">Alphabet</string>
+    <string name="text_other_symbols">Symbols</string>
+    <string name="text_translate">Playground</string>
+
+    <string name="button_hide">Hide</string>
+    <string name="button_show">Show</string>
+    <string name="button_clear">Clear</string>
+    <string name="button_erase">Erase</string>
+
+    <string name="menu_title">Controller type:</string>
+    <string name="menu_xbox">Xbox</string>
+    <string name="menu_playstation">Playstation</string>
+    <string name="menu_pc">PC</string>
+    <string name="menu_gh">Source code</string>
+
+    <string name="symbols_A">H</string>
+    <string name="symbols_B">I</string>
+    <string name="symbols_C">J</string>
+    <string name="symbols_D">K</string>
+    <string name="symbols_E">L</string>
+    <string name="symbols_F">M</string>
+    <string name="symbols_G">N</string>
+
+    <string name="alphabet_a">a</string>
+    <string name="alphabet_b">b</string>
+    <string name="alphabet_c">c</string>
+    <string name="alphabet_d">d</string>
+    <string name="alphabet_e">e</string>
+    <string name="alphabet_f">f</string>
+    <string name="alphabet_g">g</string>
+    <string name="alphabet_h">h</string>
+    <string name="alphabet_i">i</string>
+    <string name="alphabet_j">j</string>
+    <string name="alphabet_k">k</string>
+    <string name="alphabet_l">l</string>
+    <string name="alphabet_m">m</string>
+    <string name="alphabet_n">n</string>
+    <string name="alphabet_o">o</string>
+    <string name="alphabet_p">p</string>
+    <!-- the character Q have the same symbol of K -->
+    <string name="alphabet_r">r</string>
+    <string name="alphabet_s">s</string>
+    <string name="alphabet_t">t</string>
+    <string name="alphabet_u">u</string>
+    <!-- the character V have the same symbol of U -->
+    <string name="alphabet_w">w</string>
+    <string name="alphabet_x">x</string>
+    <string name="alphabet_y">y</string>
+    <string name="alphabet_z">z</string>
+    <string name="alphabet_blank">_</string>
+    <string name="alphabet_comma">,</string>
+    <string name="alphabet_period">.</string>
+
+
+</resources>

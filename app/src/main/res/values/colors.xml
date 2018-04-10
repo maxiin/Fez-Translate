@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="stoneLight">#eae2be</color>
+    <color name="stoneMedium">#c6b3a4</color>
+    <color name="stoneDark">#aa988a</color>
+    <color name="grassLight">#d6f900</color>
+    <color name="grassMedium">#99d501</color>
+    <color name="grassDark">#58ab01</color>
+</resources>

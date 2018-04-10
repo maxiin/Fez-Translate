@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menu_group"
+        android:checkableBehavior="single">
+        <item
+            android:title="@string/menu_title"
+            android:checkable="false"
+            android:enabled="false"/>
+        <item android:id="@+id/menu_controller_xbox"
+            android:title="@string/menu_xbox" />
+        <item android:id="@+id/menu_controller_playstation"
+            android:title="@string/menu_playstation" />
+        <item android:id="@+id/menu_controller_pc"
+            android:title="@string/menu_pc" />
+    </group>
+    <item
+        android:id="@+id/menu_gh"
+        android:title="@string/menu_gh"
+        />
+</menu>

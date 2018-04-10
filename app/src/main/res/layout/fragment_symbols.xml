@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SymbolsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/symbol_keyboard"
+            android:orientation="horizontal">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".5">
+
+                <TextView
+
+                    android:id="@+id/symbol_main_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="30sp" />
+
+            </ScrollView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true">
+
+                    <com.max.tgr.feztranslate.views.KVerticalTextView
+                        android:id="@+id/symbol_command_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:textSize="90sp" />
+
+                </ScrollView>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/symbol_keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/symbol_keyboard_row1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/symbol_button_A"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/stoneLight"
+                    android:text="@string/symbols_A"
+                    android:textColor="@color/stoneDark"
+                    android:textSize="30sp"/>
+
+                <Button
+                    android:id="@+id/symbol_button_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/stoneLight"
+                    android:text="@string/symbols_B"
+                    android:textColor="@color/stoneDark"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/symbol_button_C"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/stoneLight"
+                    android:text="@string/symbols_C"
+                    android:textColor="@color/stoneDark"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/symbol_button_D"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/stoneLight"
+                    android:text="@string/symbols_D"
+                    android:textColor="@color/stoneDark"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/symbol_keyboard_row2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/symbol_button_E"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/stoneLight"
+                    android:text="@string/symbols_E"
+                    android:textColor="@color/stoneDark"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/symbol_button_F"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/stoneLight"
+                    android:text="@string/symbols_F"
+                    android:textColor="@color/stoneDark"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/symbol_button_G"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/stoneLight"
+                    android:text="@string/symbols_G"
+                    android:textColor="@color/stoneDark"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/symbol_button_erase"
+                    android:layout_width="0dp"
+                    android:layout_height="58dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/stoneLight"
+                    android:text="@string/button_erase"
+                    android:textColor="@color/stoneDark" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
