@@ -23,6 +23,26 @@
     <string name="symbols_F">M</string>
     <string name="symbols_G">N</string>
 
+    <string name="symbols_0">0</string>
+    <string name="symbols_1">1</string>
+    <string name="symbols_2">2</string>
+    <string name="symbols_3">3</string>
+    <string name="symbols_3_alt">Z</string>
+    <string name="symbols_4">4</string>
+    <string name="symbols_4_alt">Y</string>
+    <string name="symbols_5">5</string>
+    <string name="symbols_5_alt">X</string>
+    <string name="symbols_6">6</string>
+    <string name="symbols_6_alt">W</string>
+    <string name="symbols_7">7</string>
+    <string name="symbols_7_alt">V</string>
+    <string name="symbols_8">8</string>
+    <string name="symbols_9">9</string>
+    <string name="symbols_10">!</string>
+
+    <string name="symbols_toNumber">Get Numbers Keyboard</string>
+    <string name="symbols_toKey">Get Keys Keyboard</string>
+
     <string name="alphabet_a">a</string>
     <string name="alphabet_b">b</string>
     <string name="alphabet_c">c</string>
