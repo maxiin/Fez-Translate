@@ -68,7 +68,6 @@ class SymbolsFragment : Fragment() {
 
         val idName = resources.getResourceEntryName(id)
 
-        //todo: derotate the nums
         when (idName.last()) {
             'e' ->{
                 if(textToPrintK.isNotEmpty() && textToPrintP.isNotEmpty()) {
@@ -88,10 +87,10 @@ class SymbolsFragment : Fragment() {
 
     }
 
-    //fixme:fix this on click, not working important
     private fun eraseOnClick(){
 
-        if(textToPrintK.isNotEmpty() && textToPrintP.isNotEmpty()) {
+        if(textToPrintK.isNotEmpty() || textToPrintP.isNotEmpty()) {
+
             when (textToPrintP.substring(textToPrintP.length - 1, textToPrintP.length)) {
                 "A" -> textToPrintK = textToPrintK.substring(0, textToPrintK.length - (up.length + 2))
                 "B" -> textToPrintK = textToPrintK.substring(0, textToPrintK.length - (right.length + 2))
@@ -103,6 +102,10 @@ class SymbolsFragment : Fragment() {
                 else -> textToPrintK = textToPrintK.substring(0, textToPrintK.length - 1)
             }
             textToPrintP = textToPrintP.substring(0, textToPrintP.length - 1)
+
+            activity.symbol_main_view.text = textToPrintK
+            activity.symbol_command_view.text = textToPrintP
+
         }
 
     }
@@ -204,7 +207,6 @@ class SymbolsFragment : Fragment() {
             }
         }
 
-        //fixme: this onclick is not working *important*
         out.symbol_button_erase.setOnClickListener { eraseOnClick() }
         out.symbol_number_button_erase.setOnClickListener { eraseOnClick() }
 
