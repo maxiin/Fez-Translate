@@ -22,6 +22,7 @@ class PlaygroundFragment : Fragment() {
 
         activity.window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE)
 
+        //this activity just returns the text in the custom font
         layout.playground_main_text.typeface = fezFont
         layout.playground_send_button.setOnClickListener({
             playground_main_text.text = playground_edit_text.text.toString().toLowerCase()

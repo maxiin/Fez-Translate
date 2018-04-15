@@ -37,7 +37,6 @@ class AlphabetFragment : Fragment() {
         val layout = inflater.inflate(R.layout.fragment_alphabet, container, false)
 
         //setupButtons will set the right font and click listeners
-        //passing the layout because of the fragment wiew
         setupButtons(layout)
 
         return layout
@@ -54,7 +53,7 @@ class AlphabetFragment : Fragment() {
         val row4Count = out.alphabet_keyboard_row4.childCount
         val totalButtons = row1Count + row2Count + row3Count + row4Count
 
-        //for loop for setting the font and the listener for each button
+        //setting the font and the listener for each button
         for (i in 0 until totalButtons) {
             var view: View
 
@@ -77,7 +76,7 @@ class AlphabetFragment : Fragment() {
             }
         }
 
-        //setting the side textView for using the custom font
+        //setting only the side textView for using the custom font
         out.alphabet_symbol_view.typeface = fezFont
         //setting the special buttons, clear and erase, their onClick listeners
         out.alphabet_button_clear.setOnClickListener { onClick(out.alphabet_button_clear.id) }

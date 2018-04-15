@@ -41,6 +41,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
 
+        //setting the buttons for each controller type in the menu
+        //then sending them through shared preferences
+
         val send = prefs!!.edit()
 
         when (item.itemId) {
